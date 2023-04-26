@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         return AlertDialog(
                           title: Text("About Search"),
                           content: Text(
-                              "When you search for movies, please use english and correct words. Please stay with internet connection."),
+                              "When you search please use English and correct words. Please stay with an internet connection."),
                           actions: [
                             TextButton(
                                 onPressed: () {
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: TextField(
                   controller: aramaKelimesi,
                   decoration: InputDecoration(
-                    hintText: "Search for a Movie",
+                    hintText: "Search for a Movie or Series",
                     hintStyle: TextStyle(color: Colors.black),
                     border: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.black),

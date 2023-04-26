@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.imbd">
+    package="com.omer_gul.imbd">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="imbd"
+        android:label="IMBd Movies and Series"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
